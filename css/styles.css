@@ -21,10 +21,13 @@
 }
 
 span{
-    padding-top: 25px;
+    padding-top: 16px;
     display: block;
-    font-size: 25px;
+    font-size: 35px;
     color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Satisfy', cursive;
 }
 
 .mockup{
