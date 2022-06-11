@@ -6,10 +6,13 @@
 
 body{
     color: white;
+    background-image: url(/images/bg-hero-mobile.svg);
+    background-color: #005FCB;
+    background-repeat:no-repeat;
+    background-size: 100%;
 }
 
 .seccion1{
-    background-color: #117A65;
     height: 724px;
 }
 
@@ -39,7 +42,6 @@ span{
 
 .seccion2{
     height: 724px;
-    background-color: coral;
 }
 
 .main{
@@ -72,14 +74,14 @@ h1{
     border-radius: 50px;
     background-color: white;
     font-size: 25px;
-    color: blueviolet;
+    color: #005FCB;
     display: inline-block;
     padding-top: 26px;
     text-decoration: none;
 }
 
 .btn-registrar a:hover{
-    background-color: blueviolet;
+    background-color: #59a7ff;
     color: white;
 }
 
@@ -99,8 +101,9 @@ h1{
 }
 
 .redes a:hover{
-    border-color: blueviolet;
-    color: blueviolet;
+    border-color: #59a7ff;
+    color: #59a7ff;
+    cursor: pointer;
 }
 
 .redes{
@@ -112,6 +115,11 @@ h1{
 /*Media Queries*/
 
 @media (min-width:1284px){
+
+    body{
+        background-image: url(/images/bg-hero-desktop.svg);
+    }
+
     .main{
         margin: 60px auto 0px;
         width: 1284px;
