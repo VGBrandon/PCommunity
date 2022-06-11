@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.seccion1{
+    background-color: #117A65;
+    width: 724px;
+    height: 1448px;
+}
+
+.logo-container{
+    width: 180px;
+    height: 80px;
+    display: flex;
+}
+
+.logo{
+    width: 80px;
+}
+
+span{
+    padding-top: 16px;
+    display: block;
+    font-size: 35px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+
+.mockup{
+    width: 723px;
+}
