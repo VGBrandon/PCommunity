@@ -127,6 +127,14 @@ h1{
         height: 700px;
     }
 
+    .mockup-container{
+        padding-top: 50px;
+    }
+
+    .mockup{
+        width: 700px;
+    }
+
     /*Seccion2*/
 
     .seccion2{
