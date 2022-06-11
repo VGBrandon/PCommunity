@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.seccion1{
+    background-color: #117A65;
+    width: 724px;
+    height: 1448px;
+}
+
+.logo-container{
+    width: 180px;
+    height: 80px;
+    display: flex;
+}
+
+.logo{
+    width: 80px;
+}
+
+span{
+    padding-top: 25px;
+    display: block;
+    font-size: 25px;
+    color: white;
+}
+
+.mockup{
+    width: 595px;
+}
